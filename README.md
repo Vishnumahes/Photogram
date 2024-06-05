@@ -16,11 +16,12 @@ Photogram is a dynamic photo-sharing web application developed using PHP, HTML, 
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript, jQuery
-- **Backend**: PHP, Node.js
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
+- **Backend**: PHP
 - **Databases**: MySQL, MongoDB
 - **Tools**: Git, GitHub, Docker
 - **Frameworks**: Bootstrap, Docker Compose
+- **Configuration**: GitLab CI
 
 ## Installation
 
@@ -52,7 +53,7 @@ Photogram is a dynamic photo-sharing web application developed using PHP, HTML, 
      mongorestore --db photogram path/to/mongodb/dump
      \`\`\`
 
-3. Configure environment variables (e.g., database credentials) in a `.env` file.
+3. Configure environment variables (e.g., database credentials) in a \`.env\` file.
 
 4. Start the application:
    \`\`\`bash
@@ -98,7 +99,7 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## License
 
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
